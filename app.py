@@ -15,7 +15,7 @@ def index():
         return render_template('homepage.html')
     elif request.method == "POST":
         name = request.form.get('supe-name')
-        url = "https://superheroapi.com/api/" + os.environ.get('API_ACCESS_KEY') + "/search/" + name.lower()
+        url = "https://superheroapi.com/api/" + os.environ.get('API_ACCESS_KEY') + "/search/" + name
 
         results = requests.get(url).json()
 
