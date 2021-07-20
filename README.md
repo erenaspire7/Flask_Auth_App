@@ -12,8 +12,6 @@ This repository contains the code of a Supehero based website with authenticatio
 ### Get Superhero API Access Key
 Head over to the website given above  and generate  your access token
 
-![Screenshot of SuperHero API Key](https://res.cloudinary.com/erenaspire7/image/upload/v1621935204/Screenshot_71_quy6fn.png)
-
 Here's the structure of our project
 
 ```bash
