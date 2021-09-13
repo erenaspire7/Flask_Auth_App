@@ -3,14 +3,11 @@ This repository contains the code of a Supehero based website with authenticatio
 
 ## Prerequisites
 - virtualenv
-- Superhero API Access Key ([https://superheroapi.com/](https://superheroapi.com/))
 
 ### Install VirtualEnv
 ```bash
   sudo pip install virtualenv
 ```
-### Get Superhero API Access Key
-Head over to the website given above  and generate  your access token
 
 Here's the structure of our project
 
