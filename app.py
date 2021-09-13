@@ -21,7 +21,7 @@ def index():
 
         supe_details = []
         for x in results:
-            if (name in x['name'].lower()):
+            if (name.lower() in x['name'].lower()):
                 supe_details.append(x)
 
         session['results'] = supe_details
