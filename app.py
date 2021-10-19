@@ -71,7 +71,7 @@ def results():
 
 @app.route('/login', methods=['GET'])
 def login():
-    return auth0.authorize_redirect(redirect_uri='http://localhost:5000/callback')
+    return auth0.authorize_redirect(redirect_uri=os.environ.get('YOUR_DOMAIN') + '/callback')
 
 @app.route('/logout', methods=['GET'])
 def logout():
